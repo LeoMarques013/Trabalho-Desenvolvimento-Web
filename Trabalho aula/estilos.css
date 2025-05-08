@@ -1,4 +1,4 @@
-/* Reset básico e tipografia */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0fdf4; /* tom claro verde */
+  background-color: #f0fdf4; 
   padding: 20px;
 }
 
@@ -17,15 +17,15 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* Container dos cards */
+
 .card-container {
   display: flex;
   gap: 20px;
   justify-content: center;
-  flex-wrap: wrap; /* permite empilhar em telas pequenas */
+  flex-wrap: wrap; 
 }
 
-/* Estilo base dos cards */
+
 .card {
   background-color: #ffffff;
   border: 1px solid #c8e6c9;
@@ -40,7 +40,7 @@ h1 {
   transform: translateY(-5px);
 }
 
-/* Conteúdo interno do card */
+
 .card h2 {
   color: #388e3c;
   margin-bottom: 10px;
@@ -50,7 +50,7 @@ h1 {
   color: #555;
 }
 
-/* Responsividade: empilhar os cards no celular */
+
 @media (max-width: 768px) {
   .card {
     width: 100%;
